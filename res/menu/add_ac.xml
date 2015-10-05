@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.zhigao.all_connect.AddAcActivity" >
+    <item
+        android:id="@+id/action_rewrite"
+        android:orderInCategory="50"
+        android:title="重写"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/action_clear"
+        android:orderInCategory="55"
+        android:title="清空"
+        app:showAsAction="always"
+        />    
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="60"
+        android:title="刷新"
+        app:showAsAction="always"
+        />
+</menu>
